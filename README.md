@@ -13,8 +13,8 @@ Ensure you have the following tools installed on your local machine:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/Argishti-Cho/acba-task.git
+   cd terraform
 
 2. **Initialize and Apply Terraform**
     ```bash
@@ -24,4 +24,4 @@ Ensure you have the following tools installed on your local machine:
 Note: The process may take approximately 7–10 minutes. If it takes significantly longer, review the output for potential issues.
 
 3. Access Kibana dashboard
-    Once the deployment is complete, access Kibana in your browser at: [link]kubernetes.kibana.internal
+    Once the deployment is complete, access Kibana in your browser [kibana](kubernetes.kibana.internal)

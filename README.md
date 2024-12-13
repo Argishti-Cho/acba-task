@@ -51,4 +51,4 @@ sudo ./create-service.sh
 ```
 For uninstalling simply run: `chmod uninstall.sh` and `sudo ./uninstall.sh`.
 
-Note: The slack account which receives the warning message belongs to the Repository owner, to be added in the slack channel please contact to the repository owner.
+Note: The slack account which receives the warning message belongs to the Repository owner, If you want to receive notifications update the webhook secrets in the **resource-monitoring.py** file, line 8 **SLACK_WEBHOOK_URL=**

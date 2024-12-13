@@ -4,7 +4,8 @@ import time
 import logging
 
 # Slack webhook URL
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+# update with your slack webhook link secrets
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/secret1/secret2"
 
 # Log file configuration
 LOG_FILE = "/var/log/monitor_system.log"

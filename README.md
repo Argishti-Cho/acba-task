@@ -25,3 +25,30 @@ Note: The process may take approximately 7–10 minutes. If it takes significant
 
 3. Access Kibana dashboard
     Once the deployment is complete, access Kibana in your browser, simply click the following link: [kibana](http://kubernetes.kibana.internal)
+
+
+## Task 2: System Resource Monitoring and Notification Script
+
+### Prerequisites
+
+1. Install Python
+Ensure Python is installed on your system. Follow the [official Python installation guide](https://www.python.org/downloads/) for detailed instructions.
+
+2. Install Python Modules
+
+Upgrade **pip** and install the required Python modules by running the following commands:
+
+```bash
+sudo apt install python3-pip -y
+pip install --upgrade pip
+pip install psutil requests logging
+```
+
+3. Go to monitoring directory and run the following commands
+```bash
+chmod +x create-service.sh
+sudo ./create-service.sh
+```
+For uninstalling simply run: `chmod uninstall.sh` and `sudo ./uninstall.sh`.
+
+Note: The slack account which receives the warning message belongs to the Repository owner, to be added in the slack channel please contact to the repository owner.
